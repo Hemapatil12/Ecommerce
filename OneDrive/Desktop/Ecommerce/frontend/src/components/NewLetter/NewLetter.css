@@ -1,0 +1,172 @@
+.newletter {
+    width: 65%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 30px;
+  }
+  
+  .newletter h1 {
+    color: #454545;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .newletter p {
+    color: #454545;
+    font-size: 20px;
+  }
+  
+  .newletter-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+  }
+  
+  .newletter input {
+    width: 500px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  
+  .newletter button {
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+
+
+  @media(max-width:1280px){
+    .newletter{
+      padding:0px 80px;
+      margin-bottom: 120px;
+      gap:20px;
+    }
+    .newletter h1{
+      font-size: 36px;
+
+    }
+    .newletter p{
+      font-size: 16px;
+    }
+    .newletter.div{
+      width: 600px;
+      height: 60px;
+
+    }
+    .newletter div input{
+      width:400px;
+
+    }
+    .newletter div button{
+      width:160px;
+      height:60px;
+    }
+  }
+  @media(max-width:1024px){
+    .newletter{
+      padding:0px 70px;
+      margin-bottom: 100px;
+      gap:20px;
+    }
+    .newletter h1{
+      font-size: 30px;
+
+    }
+    .newletter p{
+      font-size: 12px;
+    }
+    .newletter.div{
+      width: 500px;
+      height: 50px;
+
+    }
+    .newletter div input{
+      width:300px;
+
+    }
+    .newletter div button{
+      width:140px;
+      height:50px;
+    }
+  }
+  @media(max-width:800px){
+    .newletter{
+      padding:0px 60px;
+      margin-bottom: 90px;
+      gap:20px;
+    }
+    .newletter h1{
+      font-size: 30px;
+    }
+    .newletter p{
+      font-size: 10px;
+    }
+    .newletter.div{
+      width: 400px;
+      height: 30px;
+
+    }
+    .newletter div input{
+      width:300px;
+
+    }
+    .newletter div button{
+      width:120px;
+      height:30px;
+    }
+  }
+  @media(max-width:500px){
+    .newletter{
+      padding:0px;
+      margin-bottom: 120px;
+      gap:15px;
+      height:25vh;
+      width:100%;
+    }
+    .newletter h1{
+      font-size: 36px;
+
+    }
+    .newletter p{
+      font-size: 13px;
+    }
+    .newletter.div{
+      width: 400px;
+      height: 40px;
+
+    }
+    .newletter div input{
+      width:200px;
+      height: 40px;
+
+
+    }
+    .newletter div button{
+      width:100px;
+      height:40px;
+    }
+  }
+  
+  
+  

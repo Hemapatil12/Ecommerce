@@ -1,0 +1,21 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "a description for your backenfd project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hema",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "keywords": []
+}
